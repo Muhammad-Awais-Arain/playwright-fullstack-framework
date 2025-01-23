@@ -1,0 +1,92 @@
+[
+  {
+    "testCaseID": "TC001",
+    "scenario": "Addition",
+    "description": "Validate addition of two positive numbers",
+    "input1": "5000",
+    "input2": "3000",
+    "operator": "+",
+    "expected": "8000"
+  },
+  {
+    "testCaseID": "TC002",
+    "scenario": "Subtraction",
+    "description": "Validate subtraction of two positive numbers",
+    "input1": "9000",
+    "input2": "4000",
+    "operator": "-",
+    "expected": "5000"
+  },
+  {
+    "testCaseID": "TC003",
+    "scenario": "Multiplication",
+    "description": "Validate multiplication of two positive numbers",
+    "input1": "200",
+    "input2": "40",
+    "operator": "*",
+    "expected": "8000"
+  },
+  {
+    "testCaseID": "TC004",
+    "scenario": "Division",
+    "description": "Validate division of two positive numbers",
+    "input1": "5000",
+    "input2": "2",
+    "operator": "/",
+    "expected": "2500"
+  },
+  {
+    "testCaseID": "TC005",
+    "scenario": "Division by Zero",
+    "description": "Validate division by zero",
+    "input1": "5000",
+    "input2": "0",
+    "operator": "/",
+    "expected": "Error: Cannot divide by 0"
+  },
+  {
+    "testCaseID": "TC006",
+    "scenario": "Out-of-Range Input",
+    "description": "Validate out-of-range number input",
+    "input1": "10000",
+    "input2": "",
+    "operator": "+",
+    "expected": "Error: Out of range"
+  },
+  {
+    "testCaseID": "TC007",
+    "scenario": "Decimal Handling",
+    "description": "Validate that decimal places are truncated to two digits",
+    "input1": "3.456",
+    "input2": "3.456",
+    "operator": "+",
+    "expected": "6.91"
+  },
+  {
+    "testCaseID": "TC008",
+    "scenario": "Consecutive Calculations",
+    "description": "Validate performing consecutive operations without clearing display",
+    "input1": "100",
+    "input2": "200",
+    "operator": "+",
+    "expected": "300"
+  },
+  {
+    "testCaseID": "TC09",
+    "scenario": "Sign Change",
+    "description": "Validate changing the sign of a number",
+    "input1": "500",
+    "input2": "",
+    "operator": "+/-",
+    "expected": "-500"
+  },
+  {
+    "testCaseID": "TC010",
+    "scenario": "Clearing Display",
+    "description": "Validate clearing the display after entering a number",
+    "input1": "1234",
+    "input2": "",
+    "operator": "C",
+    "expected": "0"
+  }
+]

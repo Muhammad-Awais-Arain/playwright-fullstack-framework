@@ -1,0 +1,19 @@
+{
+  "name": "playwrightfullstack",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@faker-js/faker": "^9.4.0",
+    "@playwright/test": "^1.49.0",
+    "@types/node": "^22.10.1",
+    "allure-commandline": "^2.32.0",
+    "allure-playwright": "^3.0.9",
+    "dotenv": "^16.4.7",
+    "zod": "^3.24.1"
+  }
+}
